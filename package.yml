@@ -1,0 +1,27 @@
+---
+  name: discordianquotes
+  version: "0.0.1"
+  license: BEER
+  author:
+    name: Karolin Varner
+    email: karo@cupdev.net
+  main: ./lib.coffee
+  bin:
+    disco: cmd.coffee
+  repository:
+    type: git
+    url: https://github.com/koraa/node-discordianquotes
+  keywords:
+    - eris
+    - discord
+    - chaos
+    - chao
+  dependencies:
+    jquery:       *
+    html-to-text: *
+    jsdom:        *
+  devDependencies:
+    coffee-script: >=1.6.2
+    yaml2json:     *
+  engines:
+    node: >=0.10.0
