@@ -18,7 +18,7 @@ http://discordianquotes.com/quote/leave-usual-order-things
 
 In case of procrastination:
 ```
-for x in $(seq 100); do disco; echo; echo; sleep 0.1; done | more
+for x in `seq 100`; do disco | head -n +2; echo; sleep 0.1; done | more
 ```
 
 See the files on how to use the lib. It's really short.
