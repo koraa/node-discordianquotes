@@ -5,9 +5,9 @@
   author:
     name: Karolin Varner
     email: karo@cupdev.net
-  main: ./lib.coffee
+  main: ./lib.js
   bin:
-    disco: cmd.coffee
+    disco: cmd.js
   repository:
     type: git
     url: https://github.com/koraa/node-discordianquotes

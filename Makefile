@@ -1,6 +1,6 @@
 export PATH := $(PWD)/node_modules/.bin:$(PATH)
 
-FILES = package.json cmd.js lib.js
+FILES = package.json lib.js
 
 build: $(FILES)
 
