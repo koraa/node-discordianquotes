@@ -35,6 +35,7 @@ To generate the corresponding js/json files, you need to run
   * Age
 * Display the properties on CLI and add flags to turn stuff
   on/off
+* We should be able to code this without external libs
 
 # License
 
